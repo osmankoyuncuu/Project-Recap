@@ -74,11 +74,11 @@ main{
     right: 2rem;
     background-color: red;
     border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     color: white;
     text-align: center;
-    padding-top: .25rem;
+    padding-top: .5rem;
 
 }
 .slack:hover{
