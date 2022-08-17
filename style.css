@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans';
+    
+}
+/** nav-top*/
+nav.nav-top{
+    background-image: linear-gradient(to right, rgb(205, 205, 205), rgb(198, 58, 198));
+    height: 5rem;
+}
+nav.nav-top img{
+    width: 50px;
+    border: 1px solid rgb(181, 1, 1);
+    outline: 3px solid red;
+    outline-offset: 3px;
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+.nav-top .side-in{
+    float: right;
+    margin: 2rem 1rem;
+    color: white;
+    font-weight: 600;
+}
+.side-in a{
+    text-decoration: none;
+    color: white;
+}
+.side-in a:hover{
+    color: black;
+}
+.clearfix{
+    clear:both
+}
+
+/** nav-main */
+.nav-main{
+    background-color: #ffaa53;
+    height: 5rem;
+    text-align: center;
+    font-family: "DynaPuff", cursive;
+    font-size: 1.1rem;
+}
+.nav-main ul{
+    padding-top: 1.8rem;
+}
+.nav-main ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 2rem;
+}
+.nav-main a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+}
+.nav-main a:hover{
+    color: white;
+}
+
+/** MAİN */
+main{
+    margin: 2rem;
+    text-align: justify;
+    font-weight: 600;
+}
+.slack{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: red;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    text-align: center;
+    padding-top: .25rem;
+
+}
+.slack:hover{
+    color: black;
+}
