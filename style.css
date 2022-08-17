@@ -44,6 +44,8 @@ nav.nav-top img{
     text-align: center;
     font-family: "DynaPuff", cursive;
     font-size: 1.1rem;
+    position:sticky;
+    top: 0;
 }
 .nav-main ul{
     padding-top: 1.8rem;
